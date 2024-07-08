@@ -1,0 +1,109 @@
+# Les fichiers générés par le système d'exploitation
+.DS_Store
+Thumbs.db
+
+# Les fichiers et répertoires des environnements de développement
+.idea/
+.vscode/
+*.swp
+
+# Les fichiers de log
+*.log
+
+# Les fichiers de configuration
+.env
+.env.local
+.env.*.local
+
+# Les dossiers de dépendances
+node_modules/
+bower_components/
+
+# Les fichiers de build
+dist/
+build/
+out/
+
+# Les fichiers temporaires
+tmp/
+temp/
+
+# Les fichiers de base de données locales
+*.sqlite
+*.sql
+
+# Les fichiers des tests unitaires
+coverage/
+*.lcov
+
+# Les fichiers et répertoires des IDE
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Les dossiers de l'outil de versionnement des packages
+.yarn/
+.pnp.*
+package-lock.json
+yarn.lock
+
+# Ignorer les fichiers générés par bundlers
+.parcel-cache/
+.next/
+.nuxt/
+.svelte-kit/
+
+# Ignorer les fichiers de configuration spécifiques aux systèmes
+*.bak
+*.tmp
+
+# Ignorer les fichiers Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorer les fichiers Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignorer les fichiers Ruby
+*.gem
+.bundle/
+
+# Ignorer les fichiers Go
+*.exe
+*.out
+*.o
+
+# Ignorer les fichiers PHP
+/vendor/
+
+# Ignorer les fichiers compilés pour C/C++
+*.obj
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+
+# Ignorer les fichiers de documentation générés
+*.docx
+*.pptx
+*.pdf
+
+# Ignorer les fichiers et répertoires de conteneurs
+docker-compose.override.yml
+.docker/
+docker-compose.yml
+Dockerfile
+
+# Ignorer les fichiers spécifiques aux projets de machine learning
+model/
+data/
+*.h5
+*.ckpt
